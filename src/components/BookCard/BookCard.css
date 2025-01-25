@@ -1,0 +1,29 @@
+.book-card {
+    border: 1px solid #ddd; /* لون الحدود */
+    border-radius: 8px; /* زوايا دائرية */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    padding: 1rem; /* مسافة داخلية */
+    background-color: #fff; /* لون الخلفية */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* تأثير عند التمرير */
+  }
+  
+  .book-card:hover {
+    transform: scale(1.05); /* تكبير البطاقة عند التمرير */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* ظل أكبر عند التمرير */
+  }
+  
+  /* تصميم عنوان الكتاب */
+  .book-title {
+    font-size: 1.25rem;
+    color: #333; /* لون النص */
+    margin-bottom: 0.5rem;
+  }
+  
+  /* تصميم اسم المؤلف */
+  .book-author,
+  .book-isbn {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0.25rem 0;
+  }
+  
